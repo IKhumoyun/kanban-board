@@ -1,7 +1,11 @@
+import Home from './pages/home';
+import Navbar from "./components/navbar";
+
 function App() {
   return (
     <div className="App">
-      <h1>Kanban board</h1>
+        <Navbar/>
+        <Home/>
     </div>
   );
 }
